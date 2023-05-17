@@ -16,7 +16,6 @@ const Filter = () => {
       <input
         type="text"
         name="filter"
-        // value={filter}
         onChange={handelInputChange}
         className={sharedStyles.input}
       ></input>

@@ -1,7 +1,7 @@
-import Notiflix from 'notiflix';
 import { useDispatch, useSelector } from 'react-redux';
-import { getContacts } from 'redux/selectors';
+import Notiflix from 'notiflix';
 import { addContact } from 'redux/operations';
+import { getContacts } from 'redux/selectors';
 import sharedStyles from 'components/sharedStyles.module.css';
 import css from './ContactForm.module.css';
 
